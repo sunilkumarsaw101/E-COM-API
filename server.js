@@ -11,7 +11,7 @@ import CartRouter from "./src/features/cart/cart.routes.js";
 // import basicAuthorizer from "./src/middlewares/basicAuth.middleware.js";
 import jwtAuth from "./src/middlewares/jwt.middleware.js";
 
-import apiDocs from "./swagger.json";
+import apiDocs from "./swagger.json" assert {type: 'json'};
 import loggerMiddleware from "./src/middlewares/logger.middleware.js";
 import { ApplicationError } from "./src/error-handler/applicationError.js";
 import { connectToMongoDB } from "./src/config/mongodb.js";
