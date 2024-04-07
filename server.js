@@ -77,7 +77,7 @@ server.use("/api/orders", jwtAuth, OrderRouter );
 
  //3.Default req handlers.
 server.get("/", (req, res) => {
-  res.send("welcome to expressJs");
+  res.send("welcome to expressJs API");
 });
 
 //4.middleware to handle 404 requests.
