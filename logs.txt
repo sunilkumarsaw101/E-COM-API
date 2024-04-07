@@ -1,0 +1,14 @@
+{"level":"info","message":"/api/products/rate?userId=10&productId=1&rating=4.5-{}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=10&productId=1&rating=4.5-{}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=10&productId=1&rating=4.5-{}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=10&productId=1&rating=4.5-{}","service":"request-logging"}
+{"level":"info","message":"/api/products-{\"name\":\"thar\",\"desc\":\"black color\",\"sizes\":\"s, m, l, xl\",\"price\":\"1000000\"}","service":"request-logging"}
+{"level":"info","message":"/api/products-{}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productId=65ce4402b95b5749a58d53d8&rating=4.5-{}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe1@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe1@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe1@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe1@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup-{\"name\":\"John Doe\",\"email\":\"john.doe1@gmail.com\",\"password\":\"Password\",\"type\":\"Customer\"}","service":"request-logging"}

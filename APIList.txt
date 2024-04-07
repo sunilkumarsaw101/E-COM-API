@@ -1,0 +1,18 @@
+ProductController
+Get products --done.
+Add a product --done.
+Get one product  --done.
+Filter product  --done.
+
+Rate a product    --done.
+Add item to cart  --done.
+Get item of cart  --done.
+Remove item from cart  --done.
+
+UserControl
+ signup - Name, Email, Password, TypeOfUser(customer, seller) --done.
+ signin - (Email, Password);     --done.
+
+
+comand to run this application:
+ node --experimental-json-modules server.js
