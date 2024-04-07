@@ -75,7 +75,12 @@ server.use("/api/orders", jwtAuth, OrderRouter );
 //for all the request related to likes, redirect to like route.
  server.use('/api/likes', jwtAuth, Likerouter)
 
-//3.middleware to handle 404 requests.
+ //3.Default req handlers.
+server.get("/", (req, res) => {
+  res.send("welcome to expressJs");
+});
+
+//4.middleware to handle 404 requests.
 server.use((req, res) => {
   res
     .status(404)
@@ -102,10 +107,7 @@ server.use((err, req, res, next) => {
   res.status(500).send("Something went wrong, please try later");
 });
 
-//4.Default req handlers.
-server.get("/", (req, res) => {
-  res.send("welcome to expressJs");
-});
+
 
 //5.Specify port Number.
 server.listen("8000", () => {
